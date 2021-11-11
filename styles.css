@@ -7,19 +7,18 @@ body {
 main {
     padding: 50px;
     display: grid;
-    /*grid-template-rows : 100vh;*/
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2.56fr 1.6fr 1fr;
 }
 div {
-    border: 1px solid #ff0000;
     display: flex;
+    /*border: 1px solid red;*/
     align-items: center;
     justify-content: center;
 }
 .contact{
     display:flex;
     flex-direction:column;
-    justify-content: space-around;
+    justify-content:space-evenly;
 }
 .linkedin, .email {
     color: #ffa500; 
@@ -35,5 +34,6 @@ div {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        padding: 10px;
     }
 }
