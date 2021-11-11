@@ -1,0 +1,39 @@
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+main {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 2.56fr 1.6fr 1fr;
+}
+div {
+    display: flex;
+    /*border: 1px solid red;*/
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+.linkedin, .email {
+    color: #ffa500; 
+}
+
+@media screen and (max-width: 600px) { 
+    main {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+    }
+}
