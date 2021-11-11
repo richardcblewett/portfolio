@@ -1,4 +1,39 @@
 body {
-    background: #000;
-    color: #fff;
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+main {
+    padding: 50px;
+    display: grid;
+    /*grid-template-rows : 100vh;*/
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div {
+    border: 1px solid #ff0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.linkedin, .email {
+    color: #ffa500; 
+}
+
+@media screen and (max-width: 600px) { 
+    main {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
