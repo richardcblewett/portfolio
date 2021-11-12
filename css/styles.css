@@ -35,6 +35,9 @@ div {
 :any-link{
     color:#ffa500;
 }
+.tag-1:hover, .tag-2:hover, .tag-3:hover {
+    font-size: 2em;
+}
 
 
 @media screen and (max-width: 600px) { 
