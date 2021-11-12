@@ -1,7 +1,6 @@
 window.addEventListener("resize",addCtText);
 window.addEventListener("load",addCtText);
 function addCtText () {
-    height();
     let ctText = "Contact Me";
     let d = document.getElementById("contact-text") ;
     let fw = "normal";
