@@ -29,7 +29,6 @@ div {
     order: -1; 
     grid-row: 1;
     grid-column: 1 / span 3;
-    img
 }
 :any-link{
     color:#ffa500;
