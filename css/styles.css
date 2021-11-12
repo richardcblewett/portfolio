@@ -35,6 +35,8 @@ div {
 }
 .tag-1:hover, .tag-2:hover, .tag-3:hover {
     font-size: 1.5em;
+    color:#af06af;
+    
 }
 
 
