@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 body {
     background: #000000;
     color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 main {
     padding: 50px;
     display: grid;
-    grid-template-columns: 2.56fr 1.6fr 1fr;
+    grid-template-columns: 2.16fr 1.6fr 1fr;
+    grid-template-rows: 1.6fr 1fr;
+    min-height: calc();
 }
 div {
     display: flex;
@@ -21,14 +24,26 @@ div {
     justify-content:space-evenly;
 }
 .linkedin, .email {
-    color: #ffa500; 
+    color: #008000; 
 }
+.empty {
+    order: -1; 
+    grid-row: 1;
+    grid-column: 1 / span 3;
+}
+
+:any-link{
+    color:#ffa500;
+}
+
 
 @media screen and (max-width: 600px) { 
     main {
-        display:flex;
-        flex-direction: column;
-        text-align: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.6^3fr 1.6^2fr 1.6fr 1fr;
+    }
+    .empty {
+        grid-column: 1;
     }
     .contact{
         display: flex;
