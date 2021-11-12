@@ -6,17 +6,19 @@ body {
     text-align: center;
 }
 main {
-    padding: 50px;
+    padding: 0 50px;
     display: grid;
-    grid-template-columns: 2.16fr 1.6fr 1fr;
-    grid-template-rows: 1.6fr 1fr;
-    min-height: calc();
+    grid-template-columns: 2.16fr 1.6fr 1fr ;
+    grid-template-rows: 2.16fr 1.6fr 1fr 3.456fr;
 }
 div {
     display: flex;
     /*border: 1px solid red;*/
     align-items: center;
     justify-content: center;
+}
+.name {
+    padding: 10px;
 }
 .contact{
     display:flex;
@@ -31,7 +33,6 @@ div {
     grid-row: 1;
     grid-column: 1 / span 3;
 }
-
 :any-link{
     color:#ffa500;
 }
@@ -43,7 +44,7 @@ div {
 @media screen and (max-width: 600px) { 
     main {
         grid-template-columns: 1fr;
-        grid-template-rows: 1.6^3fr 1.6^2fr 1.6fr 1fr;
+        grid-template-rows: 3.456fr 2.16fr 2.4fr 1fr 5.5296fr;
     }
     .empty {
         grid-column: 1;
