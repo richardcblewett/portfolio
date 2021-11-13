@@ -16,3 +16,11 @@ function addCtText () {
     d.innerText = ctText;
     document.getElementById("contact-text") = d ;
 }
+
+
+let m = document.getElementById('tagline');
+alert(m);
+m.onmouseover = addContent;
+function addContent () {
+    alert("working");
+}
