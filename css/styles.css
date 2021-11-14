@@ -46,8 +46,8 @@ nav {    /* h2 defaults */
 
 @media screen and (max-width: 600px) { 
     main {
-        grid-template-columns: 1fr;
-        grid-template-rows: 3.456fr 2.16fr 2.4fr 1fr 5.5296fr;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 2.16fr 2.4fr 1fr 3.456fr;
     }
     .empty {
         grid-column: 1;
