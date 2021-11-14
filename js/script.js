@@ -6,7 +6,7 @@ function addCtText () {
     let fw = "normal";
     let fs = "1.1em";
     const pageWidth = window.innerWidth ;
-    if (pageWidth <= 600) {
+    if (pageWidth <= 700) {                     //value is stored in the css media control
         ctText = ctText+":";
         fw = "bold" ;
         fs = "1.25em";
