@@ -14,5 +14,4 @@ function addCtText () {
     d.style.fontWeight = fw;
     d.style.fontSize = fs;  
     d.innerText = ctText;
-    document.getElementById("contact-text") = d ;
 }
