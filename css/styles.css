@@ -25,7 +25,7 @@ div, nav {
     flex-direction:column;
     justify-content:space-evenly;
 }
-.empty {
+header {
     order: -1; 
     grid-row: 1;
     grid-column: 1 / span 3;
@@ -44,7 +44,7 @@ div, nav {
         grid-template-columns: auto;
         grid-template-rows: 1fr 2.56fr 1.6fr 1fr 4.096fr;
     }
-    .empty {
+    header {
         grid-column: 1;
     }
     .contact{
