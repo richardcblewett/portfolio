@@ -17,9 +17,6 @@ div, nav {
     align-items: center;
     justify-content: center;
 }
-span {
-    display: inline;
-}
 .name {
     padding: 20px 10px;
 }
