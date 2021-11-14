@@ -11,11 +11,15 @@ main {
     grid-template-columns: 2.16fr 1.6fr 1fr ;
     grid-template-rows: 2.16fr 1.6fr 1fr 3.456fr;
 }
-div {
+div, nav {
     display: flex;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     align-items: center;
     justify-content: center;
+}
+nav {    /* h2 defaults */
+    font-size: 1.5em;
+    font-weight: bolder;
 }
 .name {
     padding: 10px;
