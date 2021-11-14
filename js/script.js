@@ -1,5 +1,5 @@
+window.addEventListener("load",loadFunctions);
 window.addEventListener("resize",addCtText);
-window.addEventListener("load",addCtText);
 function addCtText () {
     let ctText = "Contact Me";
     let d = document.getElementById("contact-text") ;
@@ -14,4 +14,7 @@ function addCtText () {
     d.style.fontWeight = fw;
     d.style.fontSize = fs;  
     d.innerText = ctText;
+}
+function loadFunctions () {
+    addCtText;
 }
