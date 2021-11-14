@@ -8,8 +8,8 @@ body {
 main {
     padding: 0 50px;
     display: grid;
-    grid-template-columns: 2.16fr 1.6fr 1fr ;
-    grid-template-rows: 2.16fr 1.6fr 1fr 3.456fr;
+    grid-template-columns: 2.56fr 1.6fr 1fr ;
+    grid-template-rows: 2.56fr 1.6fr 1fr 4.096fr;
 }
 div, nav {
     display: flex;
@@ -17,12 +17,11 @@ div, nav {
     align-items: center;
     justify-content: center;
 }
-nav {    /* h2 defaults */
-    font-size: 1.5em;
-    font-weight: bolder;
+span {
+    display: inline;
 }
 .name {
-    padding: 10px;
+    padding: 20px 10px;
 }
 .contact{
     display:flex;
@@ -37,17 +36,16 @@ nav {    /* h2 defaults */
 :any-link{
     color:#ffa500;
 }
-.tag-1:hover, .tag-2:hover, .tag-3:hover {
+.tag:hover {
     font-size: 1.5em;
     color:#af06af;
-    
 }
 
 
 @media screen and (max-width: 600px) { 
     main {
         grid-template-columns: auto;
-        grid-template-rows: 1fr 2.16fr 2.4fr 1fr 3.456fr;
+        grid-template-rows: 1fr 2.56fr 1.6fr 1fr 4.096fr;
     }
     .empty {
         grid-column: 1;
